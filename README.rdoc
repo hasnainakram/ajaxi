@@ -1,0 +1,20 @@
+This is a sample app showing remote => true functionality is basic scaffold. Creating an object, edit, update and destroy is powered by remote => true.
+
+
+== How to run this application
+
+1. At the command prompt, clone this app:
+       <tt>git clone git@github.com:mohitjain/ajaxified_scaffold.git</tt>
+
+2. Change directory to <tt>ajaxified_scaffold</tt> and run the bundler, database create and migrate and start server:
+       <tt>cd ajaxified_scaffold; bundle install; rake db:create; rake db:migrate; rails s</tt>
+
+3. Go to http://localhost:3000/ to see the app:
+   
+== See a live demo or blog post
+4. More information about this application can be found at:
+link:http://www.codebeerstartups.com/ajaxify-your-site-with-remote-true/
+and here
+link:http://www.codebeerstartups.com/2013/01/adding-validations-in-your-ajax-based-controllers-ajaxify-your-site/
+5. Online Demo can be found at: 
+link:http://ajaxified-scaffold.herokuapp.com/
